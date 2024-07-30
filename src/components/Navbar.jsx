@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className="nav h-20 w-full bg-zinc-100 flex items-center justify-between px-5 border-b-2 z-10">
       <Link to="/student/dashboard">
-        <h1 className='text-[#282fff] text-4xl font-semibold'>Career<span className='text-red-500'>H</span></h1>
+        <h1 className='text-[#282fff] text-4xl font-semibold'>Career<span className='text-red-500'>HUB</span></h1>
       </Link>
       <div className="prt2 flex gap-4 items-center relative">
         {user.isAuthenticated ? (
